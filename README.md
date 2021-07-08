@@ -1,6 +1,6 @@
 # Quanvolutional Neural Network (QNN)
 
-In this project we implement a *Quanvolutional Neural Network*, a quantum machine learning model originally introduced in [Henderson et al. (2019)](https://arxiv.org/abs/1904.04767).
+In this [notebook](https://github.com/viventriglia/Quantum_Neural_Network_QNN/blob/main/quanvolution.ipynb) we implement a *Quanvolutional Neural Network*, a quantum machine learning model originally introduced in [Henderson et al. (2019)](https://arxiv.org/abs/1904.04767).
 
 ## CNN *vs.* QNN
 
@@ -9,7 +9,7 @@ Small local regions are sequentially processed with the same kernel. The results
 
 One can then consider **quantum variational circuits**, which are quantum algorithms depending on free parameters. These algorithms are trained by a **classical optimization** algorithm that makes queries to the **quantum device**, the optimization being an iterative scheme that searches out better candidates for the parameters with every step. Variational circuits have become popular as a way to think about quantum algorithms for **near-term quantum devices**.
 
-Here we implement a simplified approach, which allows us to grasp the idea behind the so-called Quanvolutional Neural Networks (**QNNs**). The scheme is represented in the figure.
+In this project we implement a simplified approach, which still allows us to grasp the idea behind the so-called Quanvolutional Neural Networks (**QNNs**). The scheme is represented in the figure.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/viventriglia/Quantum_Neural_Network_QNN/main/figures/circuit.png" alt="Circuit" width="600" />

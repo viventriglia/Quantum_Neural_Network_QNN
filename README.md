@@ -34,7 +34,7 @@ The effect of the quantum convolution layer can be visualised on a batch of samp
   <img src="https://raw.githubusercontent.com/viventriglia/Quantum_Neural_Network_QNN/main/figures/out_q_layer_8_samples.png" alt="Circuit" width="650" />
 </p>
 
-# CNN *vs.* QNN – Accuracy
+## CNN *vs.* QNN – Accuracy
 
 We deploy this "toy" model on the MNIST (handwritten digits) dataset, where it seems that QNNs can achieve both **higher accuracy** and **faster training** compared to a purely classical CNN – as pointed out in [Henderson et al. (2019)](https://arxiv.org/abs/1904.04767).
 
